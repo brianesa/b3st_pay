@@ -40,10 +40,10 @@ class MovieIsLoaded extends MovieState{
   List<Object> get props => [_movie];
 }
 
-class MovieBloc extends Bloc<MovieEvent, MovieState>{
+class MyBloc extends Bloc<MovieEvent, MovieState>{
 
   Repository movieRepo;
-  MovieBloc(this.movieRepo);
+  MyBloc(this.movieRepo);
 
   @override
   // TODO: implement initialState
