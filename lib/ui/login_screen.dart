@@ -143,7 +143,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Widget lowerHalf(BuildContext context) {
-    return Align(
+    return Align( 
       alignment: Alignment.bottomCenter,
       child: Container(
         height: screenHeight / 2,
