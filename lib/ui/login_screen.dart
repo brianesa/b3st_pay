@@ -136,7 +136,7 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Widget upperHalf(BuildContext context) {
-    return Container(
+    return Container( 
       height: screenHeight / 2,
       color: global.Color().drawerHeader,
     );
